@@ -11,6 +11,7 @@ const MSW_SETUP = path.resolve(import.meta.dirname, "tests/_msw/setup.ts");
 // Resolve own-workspace sources directly in tests so the vinext <->
 // @vinext/cloudflare dependency edge points at source (single module instance,
 // no prior build required). Shared by both test projects below.
+//build 
 const WORKSPACE_SRC_ALIAS = {
   "vinext/shims": SHIMS_SRC,
   "vinext/internal": VINEXT_SRC,
