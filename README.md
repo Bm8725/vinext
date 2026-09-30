@@ -1,6 +1,6 @@
 # vinext
 
-Run Next.js applications on Vite, with Cloudflare Workers as the primary deployment target.
+Run Next.js applications on Vite, with Cloudflare Workers as the primary deployment target..
 
 **Website:** [vinext.dev](https://vinext.dev)
 
